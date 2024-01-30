@@ -1,0 +1,9 @@
+.footer {
+    margin-top: 6rem;
+    width: 100%;
+    border-top: 1px solid rgb(35, 35, 35);
+    border-top-width: 100%;
+    padding: 70px 200px 70px 200px;
+    color: black;
+    background-color: blanchedalmond;
+}

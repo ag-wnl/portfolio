@@ -1,0 +1,43 @@
+
+.main-grid {
+    color: rgb(255, 238, 205);
+    display: flex;
+    margin: 4rem 10rem 4rem 2rem;
+    flex-direction: row;
+}
+
+.body-right {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 50px 0px 50px;
+}
+
+.file-directory {
+    border-right: 1px solid rgb(32, 32, 32);
+    padding-right: 40px;
+}
+
+.projects-preview-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.project-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-thickness: 1px; 
+    text-decoration-color: gray;
+    text-underline-offset: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+.project-name:hover {
+    text-decoration-color: rgb(132, 153, 255);
+}
