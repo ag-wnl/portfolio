@@ -1,29 +1,12 @@
-import { Button, Card, Grid, Page, Text, Tree } from "@geist-ui/core";
+import { Button, Card, Grid, Link, Page, Text, Tree } from "@geist-ui/core";
 import "../pages/Home.css";
 import React from "react";
 import { ArrowUpRight } from "@geist-ui/icons";
-import FooterBody from "../components/FooterBody";
 
 function Home() {
   return (
     <>
       <div className="main-grid">
-        <div className="file-directory">
-          <Tree>
-            <Tree.File name="package.json" />
-            <Tree.Folder name="components">
-              <Tree.File name="layout.js" />
-              <Tree.Folder name="footer">
-                <Tree.File name="footer.js" />
-                <Tree.File name="footer-text.js" />
-                <Tree.File name="footer-license.js" />
-              </Tree.Folder>
-              <Tree.File name="header.js" />
-            </Tree.Folder>
-            <Tree.File name="readme.md" />
-          </Tree>
-        </div>
-
         <div className="body-right">
           <Text h5 font="22px">
             Agnideep Ghosh
@@ -53,9 +36,9 @@ function Home() {
               <Grid xs={6} md={8}>
                 <Card className="project-card" shadow width="100%">
                   <Text h4 className="project-name">
-                    Clensify <ArrowUpRight color="grey" />{" "}
+                    <Link target="_blank" href="https://github.com/ag-wnl/Clensify" placeholder={'project'} icon>Clensify</Link>
                   </Text>
-                  <Text p font="14px">
+                  <Text p font="14px" style={{color: '#c2c2c2'}}>
                     A profanity detection library which uses extensive
                     anti-bypass techniques and multi stage detection
                     outperforming conventional detection methods
@@ -66,10 +49,10 @@ function Home() {
               <Grid xs={6} md={8}>
                 <Card shadow width="100%">
                   <Text h4 className="project-name">
-                    ReaderAI <ArrowUpRight color="grey" />{" "}
+                    <Link target="_blank" href="https://github.com/ag-wnl/readerai" placeholder={'project'} icon>ReaderAI</Link>
                   </Text>
 
-                  <Text p font="14px">
+                  <Text p font="14px" style={{color: '#c2c2c2'}}>
                     Helps you annotate/take notes across the web seamlessly in a
                     new way, answer prompts and everything just a click away!
                   </Text>
@@ -86,9 +69,9 @@ function Home() {
               <Grid xs={6} md={8}>
                 <Card shadow width="100%">
                   <Text h4 className="project-name">
-                    Clensify <ArrowUpRight color="grey" />{" "}
+                    <Link target="_blank" href="https://github.com/ag-wnl/Clensify" placeholder={'project'} icon>Clensify</Link>
                   </Text>
-                  <Text p font="14px">
+                  <Text p font="14px" style={{color: '#c2c2c2'}}>
                     A profanity detection library which uses extensive
                     anti-bypass techniques and multi stage detection
                     outperforming conventional detection methods
@@ -99,10 +82,10 @@ function Home() {
               <Grid xs={6} md={8}>
                 <Card shadow width="100%">
                   <Text h4 className="project-name">
-                    ReaderAI <ArrowUpRight color="grey" />{" "}
+                    <Link target="_blank" href="https://github.com/ag-wnl/readerai" placeholder={'project'} icon>ReaderAI</Link>
                   </Text>
 
-                  <Text p font="14px">
+                  <Text p font="14px" style={{color: '#c2c2c2'}}>
                     Helps you annotate/take notes across the web seamlessly in a
                     new way, answer prompts and everything just a click away!
                   </Text>
@@ -112,8 +95,6 @@ function Home() {
           </div>
         </div>
       </div>
-
-      <FooterBody />
     </>
   );
 }

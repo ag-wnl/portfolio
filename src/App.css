@@ -1,0 +1,10 @@
+.main-divider-div {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+}
+
+.file-directory {
+    border-right: 1px solid rgb(32, 32, 32);
+    padding-right: 40px;
+}
