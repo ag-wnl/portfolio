@@ -1,10 +1,13 @@
+.parent-box {
+}
+
 .main-divider-div {
     display: flex;
     flex-direction: row;
-    margin: 5rem;
+    padding: 4rem 4rem 20rem 1rem;
 }
 
 .file-directory {
-    border-right: 1px solid rgb(32, 32, 32);
+    border-right: 1px solid rgb(176, 176, 176);
     padding-right: 40px;
 }

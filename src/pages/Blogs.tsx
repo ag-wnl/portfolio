@@ -7,20 +7,14 @@ function Blogs() {
     <>
       <div className="main-grid">
         <div className="body-right">
-          <Text h5 font="22px">
+          <Text h2>
             Blogs
           </Text>
           <Text p>
-            <Text b>Developing something useful. </Text>
-            Engineering undergraduate at MAIT class of 2025.
+            <Text b>Yes, I <span style={{color:"brown"}}>blog</span> sometimes. </Text>
+            I love to share my learnings and experiences via blogs and will be linking them here soon
           </Text>
 
-          <Text p>
-            I love developing projects aimed to solve a problem or try to find a
-            way to solve it more efficiently. I have a deep interest in
-            data-structure and algorithm problems and take part in competitive
-            programming.
-          </Text>
           <br></br>
         </div>
       </div>

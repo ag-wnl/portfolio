@@ -1,8 +1,27 @@
 
 .main-grid {
-    color: rgb(255, 238, 205);
+    /* color: rgb(255, 238, 205); */
     display: flex;
     /* margin: 4rem 15rem 4rem 15rem; */
+}
+
+.gradient-text {
+    background: -webkit-linear-gradient(#6fa4ff, #4d50fd, #3e37ff, #d88aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-one {
+    background: -webkit-linear-gradient(#000000, #142808, #2a1a1a, #c7c7c7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.home-top-panel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .body-right {
@@ -14,7 +33,7 @@
 .projects-preview-box {
     display: flex;
     flex-direction: column;
-    gap: 5vh;
+    gap: 3rem;
     text-align: justify;
     text-justify: inter-word;
 }
