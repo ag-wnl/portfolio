@@ -1,4 +1,3 @@
-import react from "react";
 import { Text } from "@geist-ui/core";
 import "../pages/Home.css";
 

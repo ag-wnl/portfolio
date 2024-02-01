@@ -1,6 +1,5 @@
-import { Button, Card, Grid, Link, Page, Text, Tree } from "@geist-ui/core";
+import { Card, Grid, Link, Text } from "@geist-ui/core";
 import "../pages/Home.css";
-import React from "react";
 import { Linkedin, Github } from "@geist-ui/icons";
 import cf_icon from '../imgs/cf.png';
 
@@ -41,7 +40,7 @@ function Home() {
                 href="https://codeforces.com/profile/ag_wnl"
                 placeholder={"CodeForces"}
               >
-                <img src={cf_icon} />
+                <img src={cf_icon} alt="codeforces logo" />
               </Link>
             </span>
           </Text>
