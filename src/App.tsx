@@ -15,6 +15,7 @@ import Blogs from "./pages/Blogs";
 import path from "path/posix";
 import Editor from "./pages/editor";
 import { useTheme } from "@geist-ui/core";
+import FooterBody from "./components/FooterBody";
 
 function App() {
   const myTheme1 = Themes.createFromLight({
@@ -53,6 +54,7 @@ function App() {
           </Routes>
         </div>
       </div>
+      <FooterBody />
     </GeistProvider>
   );
 }

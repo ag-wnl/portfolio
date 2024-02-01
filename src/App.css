@@ -1,10 +1,8 @@
-.parent-box {
-}
 
 .main-divider-div {
     display: flex;
     flex-direction: row;
-    padding: 4rem 4rem 20rem 1rem;
+    padding: 4rem 4rem 5rem 1rem;
 }
 
 .file-directory {

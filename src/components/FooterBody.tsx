@@ -6,7 +6,7 @@ function FooterBody() {
     return (
 
         <div className='footer'>
-           <Text h5>Agnideep Ghosh </Text>
+           <Text h5>© 2024 Agnideep Ghosh </Text>
         </div>
     );
 } 
