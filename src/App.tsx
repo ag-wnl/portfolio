@@ -30,7 +30,10 @@ function App() {
     <GeistProvider themes={[myTheme1]} themeType={"light"}>
       <CssBaseline />
       <div className='parent-box'>
-        <Navbar / >
+        <div className="navbar-header">
+          <Navbar / >
+        </div>
+    
         <div className="main-divider-div">
           <div className="file-directory">
             <Tree>
