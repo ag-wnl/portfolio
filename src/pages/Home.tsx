@@ -13,14 +13,7 @@ function Home() {
               <span className="gradient-text-one">Hi, I'm</span>
               <span className="gradient-text">Agnideep Ghosh</span>
             </div>
-            <span
-              style={{
-                display: "flex",
-                flexDirection: "row",
-                gap: "2rem",
-                alignItems: "center",
-              }}
-            >
+            <div className="social-logos-home">
               <Link
                 target="_blank"
                 href="https://www.linkedin.com/in/agnideep/"
@@ -42,7 +35,7 @@ function Home() {
               >
                 <img src={cf_icon} alt="codeforces logo" />
               </Link>
-            </span>
+            </div>
           </Text>
           <Text p>
             <Text b>Developing something useful. </Text>
@@ -61,7 +54,7 @@ function Home() {
             <Text h5>Some projects that I've been working on:</Text>
 
             <Grid.Container className="grid-container" gap={4} justify="center">
-              <Grid xs={6} md={8}>
+              <Grid xs={20} md={8}>
                 <Card className="project-card" shadow width="100%">
                   <Text h4 className="project-name">
                     <Link
@@ -81,7 +74,7 @@ function Home() {
                 </Card>
               </Grid>
 
-              <Grid xs={6} md={8}>
+              <Grid xs={20} md={8}>
                 <Card shadow width="100%">
                   <Text h4 className="project-name">
                     <Link
@@ -103,7 +96,7 @@ function Home() {
             </Grid.Container>
 
             <Grid.Container className="grid-container" gap={4} justify="center">
-              <Grid xs={6} md={8}>
+              <Grid xs={20} md={8}>
                 <Card shadow width="100%">
                   <Text h4 className="project-name">
                     <Link
@@ -121,7 +114,7 @@ function Home() {
                 </Card>
               </Grid>
 
-              <Grid xs={6} md={8}>
+              <Grid xs={20} md={8}>
                 <Card shadow width="100%">
                   <Text h4 className="project-name">
                     <Link

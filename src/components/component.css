@@ -7,3 +7,18 @@
     color: black;
     background-color: rgb(255, 248, 238);
 }
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    padding: 15px 20px 15px 20px;
+    border-bottom: 1px solid rgb(212, 212, 212);
+}
+
+.nav-text {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+}
+
+.nav-text:hover {
+    border-bottom: 2px solid rgb(162, 181, 255);
+}

@@ -10,6 +10,7 @@ import Home from "./pages/Home";
 import "./App.css";
 import Blogs from "./pages/Blogs";
 import FooterBody from "./components/FooterBody";
+import Navbar from "./components/Navbar";
 
 function App() {
   const myTheme1 = Themes.createFromLight({
@@ -29,6 +30,7 @@ function App() {
     <GeistProvider themes={[myTheme1]} themeType={"light"}>
       <CssBaseline />
       <div className='parent-box'>
+        <Navbar / >
         <div className="main-divider-div">
           <div className="file-directory">
             <Tree>

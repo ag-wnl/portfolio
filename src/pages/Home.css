@@ -54,3 +54,25 @@
 .project-name:hover {
     text-decoration-color: rgb(132, 153, 255);
 }
+
+.social-logos-home {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .file-directory {
+        display: none;
+    }
+
+    .social-logos-home {
+        display: none;
+    }
+
+    .home-top-panel {
+        font-size: 38px;
+    }
+} 
