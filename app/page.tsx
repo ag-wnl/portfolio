@@ -2,19 +2,19 @@ import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-[2rem] items-center px-60 py-20 max-md:px-20 max-md::py-10">
+    <div className="flex justify-center items-center w-full h-full">
+    <main className="flex flex-col gap-[2rem] items-center max-w-3xl p-10">
       <section className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold">hi, im agwnl</h1>
         <p>
           im a developer who builds mostly on the web, interested in
-          decentralisation and algorithmic problems.
-        </p>
-        <p>
-          since end of freshman year in college ive almost always been interning
+          decentralisation and algorithmic problems. since end of freshman year in college ive almost always been interning
           and building passion projects. started out in ml research, moved to a
           f500 and then to a cool web3 org. learned a lot while working
           alongside amazing people at my various stints and also got my code
           serving lots of people!
+        </p>
+        <p>
         </p>
       </section>
 
@@ -23,28 +23,25 @@ export default function Home() {
         <p>a lot of my projects are on github</p>
 
         <ul className="list-disc pl-5">
-          <li>
-            <span className="text-purple-300">readerai</span>: helps you
+          <li className='mb-2'>
+            <span className="text-purple-300 font-bold">readerai</span>: helps you
             annotate/take notes across the web seamlessly in a new way, answer
             prompts and everything just a click away!
           </li>
-          <li>
-            <span className="text-purple-300">clensify</span>: A
+          <li className='mb-2'>
+            <span className="text-purple-300 font-bold">clensify</span>: A
             profanity/bad-word detection library which uses extensive
             anti-bypass techniques and multi stage detection outperforming
             conventional detection methods. text pre-processing to decode zalgo,
-            bubble-text, leetspeak etc. and bloom filtering approach for
-            efficient detection. Privated part of this project contains work on
-            contextual embeddings and natural language processing for more
-            accurate prediction of tonality of a text.
+            bubble-text, leetspeak etc. & bloom filtering with contextual embeddings.
           </li>
-          <li>
-            <span className="text-purple-300">stoira</span>: helping talent
+          <li className='mb-2'>
+            <span className="text-purple-300 font-bold">stoira</span>: helping talent
             collaborate, a social platform with thread like chat scheme where
             you can discover/find interesting projects to collaborate on.
           </li>
           <li>
-            <span className="text-purple-300">slider</span>: find all big-tech
+            <span className="text-purple-300 font-bold">slider</span>: find all big-tech
             and high growth startup openings on a single platform, focused for
             early career/internships. motivation for this was for personal ease
             to not juggle between several platforms when finding internships and
@@ -112,6 +109,7 @@ export default function Home() {
           </a>
         </div>
       </section>
+    </main>
     </div>
   );
 }
